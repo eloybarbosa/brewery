@@ -1,21 +1,6 @@
 <template class="teste">
-  <div class="container">
-    <header>
-        <div class="overlay"></div>
-        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="./assets/video.mp4" type="video/mp4">
-        </video>
-        <div class="container h-100">
-            <div class="d-flex h-100 text-center align-items-center">
-                <div class="w-100 text-white">
-                    <h1 class="display-3">Brewery Search</h1>
-                    <p class="lead mb-0">Projeto de Bloco - Desenvolvimento Front-end</p>
-                    <p class="lead mb-0">Assessment</p>
-                </div>
-            </div>
-        </div>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Brewery Search</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -52,7 +37,28 @@
     </form>
   </div>
 </nav>
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="./assets/video.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="display-3">Brewery Search</h1>
+                    <p class="lead mb-0">Escola Superior da Tecnologia da Informação</p>
+                    <p class="lead mb-0">Projeto de Bloco - Desenvolvimento Front-end</p>
+                    <p class="lead mb-0">Assessment</p>
+                </div>
+            </div>
+        </div>
+    </header>
 <router-view></router-view>
+<footer>
+  <nav class="navbar fixed-bottom navbar-dark bg-dark">
+  <span class="navbar-brand mb-0 h1 text-center">Bredwery Search</span>
+  </nav>
+</footer>
 </div>
 
 </template>

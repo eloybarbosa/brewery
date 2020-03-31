@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <section id="team" class="pb-5">
     <div class="container">
         <h5 class="display-3 text-center">O Grupo</h5><br>
@@ -36,7 +36,7 @@
                                         </li>
                                         <li class="list-inline-item">
                                             <a class="social-icon text-xs-center" target="_blank" href="#">
-                                                <i class="fa fa-skype"></i>
+                                                <i class="fa fa-linkedin"></i>
                                             </a>
                                         </li>
                                         <li class="list-inline-item">

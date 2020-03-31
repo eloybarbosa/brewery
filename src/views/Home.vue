@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="container-fluid">
   <section class="background pb-5">
   <div class="container">
     <div class="row">
