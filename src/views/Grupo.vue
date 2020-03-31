@@ -61,7 +61,7 @@
                                 <div class="card-body text-center">
                                     <p><img class=" img-fluid" src="@/assets/eb.jpg" alt="card image"></p>
                                     <h4 class="card-title">Eloy Barbosa</h4>
-                                    <p class="card-text">Aluno de Egenharia da Computação.</p>
+                                    <p class="card-text">Aluno de Engenharia da Computação.</p>
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
                                 </div>
                             </div>
