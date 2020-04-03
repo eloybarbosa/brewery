@@ -54,10 +54,10 @@
         </div>
     </header>
 <router-view></router-view>
-<footer>
-  <nav class="navbar fixed-bottom navbar-dark bg-dark">
-  <span class="navbar-brand mb-0 h1 text-center">Bredwery Search</span>
-  </nav>
+<footer class="fixed-bottom bg-dark">
+  <!-- <nav class="navbar fixed-bottom navbar-dark bg-dark">
+  <span class="navbar-brand mb-0 h1 text-center">Bredwery Search</span> -->
+  <!-- </nav> -->
 </footer>
 </div>
 
