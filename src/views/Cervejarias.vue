@@ -1,9 +1,9 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <section class="background pb-5">
       <h1 class="display-3 text-center">Cervejarias</h1>
       <div v-for="cervejaria in allCervejarias" :key="cervejaria.id">
-        <div class="card">
+        <div class="container card">
           <div class="card-body">
             <h5 class="card-tittle">{{ cervejaria.name }}</h5>
             <p class="card-text">{{ cervejaria.state }}</p>

@@ -75,6 +75,62 @@ header {
   #nav a.router-link-exact-active {
     color: #42b983;
   }
+  form,input,select,textarea{margin:0; padding:0; }
+ 
+   div.box {
+	   margin:0 auto;
+	   width:500px;
+	   position:relative;
+	   top:50px;
+	   
+   }
+	
+   div.box h1 { 
+	   font-size:18px;
+	   text-transform:uppercase;
+	   padding:5px 0 5px 5px;
+   }
+	
+   div.box label {
+	   width:100%;
+	   display: block;
+	   padding:10px 0 10px 0;
+   }
+	
+   div.box label span {
+	   display: block;
+	   color:black;
+	   font-size:12px;
+	   float:left;
+	   width:100px;
+	   text-align:right;
+	   padding:5px 20px 0 0;
+   }
+	
+   div.box .input_text {
+	   padding:10px 10px;
+	   width:200px;
+   }
+	
+   div.box .message{
+	   padding:7px 7px;
+	   width:350px;
+	   overflow:hidden;
+	   height:150px;
+   }
+	
+   div.box .button{
+	   margin:0 0 10px 0;
+	   padding:4px 7px;
+	   background:orange;
+	   border:0px;
+	   position: relative;
+	   top:10px;
+	   left:382px;
+	   width:100px;
+	   
+   }
+
 
 
 
