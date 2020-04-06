@@ -55,7 +55,26 @@ header {
   .background {
     background: #eee !important;
   }
-
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  #nav {
+    padding: 30px;
+  }
+  
+  #nav a {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  #nav a.router-link-exact-active {
+    color: #42b983;
+  }
 
 
 
@@ -126,7 +145,7 @@ section .section-title {
     -webkit-transform-style: preserve-3d;
     -ms-transition: 1s;
     -moz-transition: 1s;
-    -moz-transform: perspective(1000px);
+    /* -moz-transform: perspective(1000px); */
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     transition: 1s;
@@ -136,8 +155,8 @@ section .section-title {
 
 .frontside {
     position: relative;
-    -webkit-transform: rotateY(0deg);
-    -ms-transform: rotateY(0deg);
+    /* -webkit-transform: rotateY(0deg); */
+    /* -ms-transform: rotateY(0deg); */
     z-index: 2;
     margin-bottom: 30px;
 }

@@ -6,7 +6,8 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-tittle">{{ cervejaria.name }}</h5>
-            <p class="card-text">{{ cervejaria.website_url }}</p>
+            <p class="card-text">{{ cervejaria.state }}</p>
+            <router-link :to="{name: 'Detalhes', params: { id: cervejaria.id } }" class="btn btn-dark">Detalhes</router-link>
           </div>
         </div>
       </div>

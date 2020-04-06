@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Grupo from '../views/Grupo.vue'
 import Cervejarias from '../views/Cervejarias.vue'
 import Contato from '../views/Contato.vue'
+import Detalhes from '../views/Detalhes.vue'
 
 Vue.use(VueRouter)
 
@@ -27,16 +28,16 @@ export default new VueRouter({
       component: Cervejarias
     },
     {
+      path: '/detalhes',
+      name: 'Detalhes',
+      component: Detalhes
+    },
+    {
       path: '/contato',
       name: 'Contato',
       component: Contato
     }
   ]
-
-// const router = new VueRouter({
-//   mode: 'history',
-//   base: process.env.BASE_URL,
-//   routes
 })
 
 // export default router
