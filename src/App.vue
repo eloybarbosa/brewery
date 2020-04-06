@@ -23,11 +23,11 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MAPA DO SITE</a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Home</a>
-          <a class="dropdown-item" href="#">Grupo</a>
-          <a class="dropdown-item" href="#">Cervejarias</a>
+          <a class="dropdown-item" href="/">Home</a>
+          <a class="dropdown-item" href="/grupo">Grupo</a>
+          <a class="dropdown-item" href="/cervejarias">Cervejarias</a>
           <!-- <div class="dropdown-divider"></div> -->
-          <a class="dropdown-item" href="#">Contato</a>
+          <a class="dropdown-item" href="/contato">Contato</a>
         </div>
       </li>
     </ul>

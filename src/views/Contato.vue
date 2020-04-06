@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <section class="background pb-5">
       <h1 class="display-3 text-center">Contato</h1>
       <section>
